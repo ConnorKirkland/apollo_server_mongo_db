@@ -1,0 +1,22 @@
+{
+    "name": "apollo_server_mongo_db",
+    "version": "1.0.0",
+    "description": "Apollo Server with a Mongo DB data source",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "@apollo/server": "^4.7.1",
+        "@types/node": "^20.2.1",
+        "graphql": "^16.6.0",
+        "mongodb": "^5.5.0"
+    },
+    "type": "module",
+    "scripts": {
+        "compile": "tsc",
+        "start": "npm run compile && node ./dist/index.js"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.4"
+    }
+}
